@@ -13,7 +13,7 @@ Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSD Cloud"
 #Start-OSDCloud -OSLanguage en-gb -OSName 'Windows 10 22H2 x64' -OSLicense Volume -OSEdition Pro -Zti
-Start-OSDCloud -OSLanguage en-gb -OSName 'Windows 10 22H2 x64' -OSLicense Volume -OSEdition Pro -Zti
+Start-OSDCloud -OSLanguage en-gb -OSName 'Windows 10 22H2 x64' -OSLicense Volume -OSEdition Education -Zti
 
 Write-Host -ForegroundColor Green "Restarting ..."
 start-sleep -Seconds 5
