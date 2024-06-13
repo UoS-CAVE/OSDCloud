@@ -14,7 +14,7 @@ $Startnet = @'
 start /wait PowerShell -NoL -C Install-Module OSD -Force -Verbose
 start /wait PowerShell -NoL -C Start-OSDCloud -OSVersion 'Windows 11' -OSBuild 23H2 -OSEdition Pro -OSLanguage en-GB -OSLicense Retail
 '@
-Edit-OSDCloudWinPE -Startnet $Startnet -StartOSDCloudGUI -Brand 'University of Surrey' -Wallpaper "C:\temp\Surrey_2023.png" -CloudDriver Dell,WiFi,USB,IntelNet
+Edit-OSDCloudWinPE -Startnet $Startnet -StartOSDCloudGUI -Brand 'University of Surrey' -Wallpaper "C:\temp\Surrey_2023.png" -CloudDriver *
 
 # create OSD ISO
 New-OSDCloudISO -WorkspacePath $WorkingDir
