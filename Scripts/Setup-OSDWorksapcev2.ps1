@@ -528,10 +528,10 @@ Write-Host "1. Open PowerShell 7 and run:" -ForegroundColor Yellow
 Write-Host "   Install-OSDWorkspace" -ForegroundColor Cyan
 Write-Host "   This will create your OSD workspace directory." -ForegroundColor White
 Write-Host ""
-Write-Host "2. Open the workspace in VS Code Insiders:" -ForegroundColor Yellow
+Write-Host "2. Open the workspace in VS Code:" -ForegroundColor Yellow
 Write-Host "   cd C:\OSDWorkspace" -ForegroundColor Cyan
-Write-Host "   code-insiders ." -ForegroundColor Cyan
-Write-Host "   This will open your workspace in VS Code Insiders." -ForegroundColor White
+# Write-Host "   code-insiders ." -ForegroundColor Cyan
+Write-Host "   This will open your workspace in VS Code." -ForegroundColor White
 Write-Host ""
 Write-Host "3. Your OSD workspace will be located at:" -ForegroundColor Yellow
 Write-Host "   C:\OSDWorkspace" -ForegroundColor Cyan
